@@ -74,21 +74,21 @@ Navegue até a pasta TTS_and_STT e execute o script `tts_and_stt.py`. O assisten
 - "mapa" – Abre o Google Maps.
 - "fechar" – Encerra o assistente.
 
-##Estrutura do Código
-###Módulo TTS (Text-to-Speech)
+## Estrutura do Código
+### Módulo TTS (Text-to-Speech)
 O módulo TTS converte texto em fala utilizando a biblioteca pyttsx3. O código é responsável por inicializar o mecanismo de síntese de fala e permitir que o usuário ouça a resposta em áudio.
 
-###Módulo STT (Speech-to-Text)
+### Módulo STT (Speech-to-Text)
 O módulo STT captura a entrada de áudio do usuário através do microfone e converte a fala em texto utilizando a biblioteca SpeechRecognition. O texto resultante pode ser usado para realizar ações específicas ou apenas exibir na tela.
 
-###Integração TTS e STT
+### Integração TTS e STT
 No módulo TTS_and_STT, os dois sistemas são integrados. O código escuta comandos de voz, converte a fala em texto e executa a ação correspondente (como abrir um site). Em seguida, o assistente pode responder com uma fala, convertendo o texto de volta para áudio.
 
-##Pontos Importantes
+## Pontos Importantes
 - Ambiente de Execução: O projeto foi desenvolvido para ser executado em um ambiente local com Python 3.x. Certifique-se de ter os requisitos instalados corretamente.
 - Conexão com a Internet: A biblioteca SpeechRecognition requer uma conexão com a internet para utilizar o Google Web Speech API.
 - Compatibilidade com Sistemas Operacionais: O projeto foi testado em sistemas Windows e Linux, mas pode ser necessário ajustar algumas configurações em diferentes sistemas operacionais.
 
-##Conclusão
+## Conclusão
 Este projeto demonstra como integrar as tecnologias de Text-to-Speech (TTS) e Speech-to-Text (STT) para criar um assistente virtual simples, mas funcional. Ele pode ser expandido para realizar tarefas mais complexas, como controlar dispositivos ou interagir com APIs externas. A estrutura modular do código facilita a manutenção e futuras melhorias.
 
