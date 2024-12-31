@@ -40,8 +40,8 @@ assistente_virtual/
 │   ├── stt.py               # Script de conversão de fala para texto
 ├── TTS_and_STT/
 │   ├── tts_and_stt.py       # Script integrando TTS e STT
-└── README.md                       # Documentação principal do projeto
-
+├── README.md                       # Documentação principal do projeto
+└── requirements.txt                # Lista de dependências do projeto
 ```
 
 ## Explicação da Estrutura:
