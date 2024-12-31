@@ -87,7 +87,7 @@ No módulo TTS_and_STT, os dois sistemas são integrados. O código escuta coman
 ## Pontos Importantes
 - Ambiente de Execução: O projeto foi desenvolvido para ser executado em um ambiente local com Python 3.x. Certifique-se de ter os requisitos instalados corretamente.
 - Conexão com a Internet: A biblioteca SpeechRecognition requer uma conexão com a internet para utilizar o Google Web Speech API.
-- Compatibilidade com Sistemas Operacionais: O projeto foi testado em sistemas Windows e Linux, mas pode ser necessário ajustar algumas configurações em diferentes sistemas operacionais.
+- Compatibilidade com Sistemas Operacionais: O projeto foi testado em sistemas Windows, mas pode ser necessário ajustar algumas configurações em diferentes sistemas operacionais.
 
 ## Conclusão
 Este projeto demonstra como integrar as tecnologias de Text-to-Speech (TTS) e Speech-to-Text (STT) para criar um assistente virtual simples, mas funcional. Ele pode ser expandido para realizar tarefas mais complexas, como controlar dispositivos ou interagir com APIs externas. A estrutura modular do código facilita a manutenção e futuras melhorias.
